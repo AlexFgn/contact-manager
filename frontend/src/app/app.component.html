@@ -1,19 +1,10 @@
+<!-- tiutlo de mi aplicacion -->
 <h1>CONTACT MANAGER</h1>
-<div class="card flex justify-center">
-    <p-button label="Check"
-    styleClass="bg-sl-50"
-    />
-</div>
 
-<i class="pi pi-check"></i>
-<i class="pi pi-times"></i>
-<span class="pi pi-search"></span>
-<span class="pi pi-user"></span>
+<!-- Componente personalizado para mostrar la lista de contactos -->
+<!-- El atributo #list es una referencia local al componente -->
+<app-contact-list #list></app-contact-list>
 
-<p-button label="Info" severity="info"></p-button>
-<p-button label="Exito" severity="success"></p-button>
-<p-button label="Aviso" severity="warn"></p-button>
-<p-button label="Eliminar" severity="danger"></p-button>
-
-
+<!-- Punto de inserccion para rutas (router outlet) -->
+ <!-- Aqui angular cargara todos los componentes segun ruta seleccionada -->
 <router-outlet />
