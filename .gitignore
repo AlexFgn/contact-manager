@@ -1,0 +1,46 @@
+# NODE MODULES
+
+# FRONTEND node_modules
+/frontend/node_modules
+
+#backend node_modules
+/backend/node_modules
+
+#npm logs
+npm-debug.log*
+yarn-error.log*
+
+#BUILD OUTPUT / TEMPORARY FILES
+
+#Frontend build artifacts
+/frontend/dist
+/frontend/tmp 
+/frontend/out-tsc
+/frontend/.angular/cache
+/frontend/.sass-cache
+
+#Backend build
+/backend/dist
+
+#Coverrage reports
+/frontend/coverage
+/backend/coverage
+
+#Otros archivos temporales comunes (con * se ignoran todos los archivos y con /solo esa carpeta que queremos)
+*.log
+.cache/
+tmp/
+
+#VS Code  (* que ignore todos los vscode menos los archivos con ! )
+.vscode/*
+!.vscode/setting.json
+!.vscode/task.json
+!.vscode/launch.json
+!.vscode/extension.json
+
+#otras carpetas temporales de editores
+.history
+
+#systems files
+.DS_Store
+Thumbs.db
